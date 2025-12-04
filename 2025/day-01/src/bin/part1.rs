@@ -1,5 +1,5 @@
 fn main() {
-    let input = include_str!("input-1.txt");
+    let input = include_str!("input.txt");
     let result = part1(input);
     println!("Part 1 Result: {}", result);
 }
@@ -36,7 +36,7 @@ mod tests {
 
     #[test]
     fn test_part_1() {
-        let test_input = include_str!("input-test-1.txt");
+        let test_input = include_str!("input-test.txt");
         let result: i32 = part1(test_input);
         assert_eq!(result, 3);
     }
